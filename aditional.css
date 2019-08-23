@@ -1,0 +1,22 @@
+
+	
+.snakeBody {
+	box-sizing: border-box;
+	background: url(img/reptile_stencil_1024x1024.png); 
+	visibility: 1;
+	background-size: cover;
+	border-radius: 40%;
+}
+
+.head {
+	box-sizing: border-box;
+	background: url(img/head.png);
+	background-size: cover;
+	border-radius: 10%;
+}
+
+.mouse {
+	box-sizing: border-box;
+	background: url(img/mouse.png);
+	background-size: cover;
+}
