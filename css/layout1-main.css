@@ -1,0 +1,633 @@
+body {
+		font-family: 'Montserrat', sans-serif;
+		color: #555555;
+		margin: 0;
+		padding: 0;
+}
+
+
+
+.header {
+		background: linear-gradient(to top, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("../Home-assets/bckg1.jpg");
+		
+		height: 770px;
+		color: #fff;
+
+}
+
+.main-header {
+		padding-top: 40px;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.logo a {
+		display: block;
+	padding: 0;
+	margin: 0;
+		font-weight: bold;
+		font-size: 24px;
+		color: #fff;
+		text-decoration: none;
+		margin-top: -8px;
+}
+
+.menu__item {
+		margin-right: 30px;
+}
+
+.menu__item a {
+		color: #fff;
+}
+
+.title {
+		text-align: center;
+		margin-top: 260px;
+}
+
+.title__heading{
+		text-transform: uppercase;
+		font-size: 48px;
+		font-weight: bold;
+}
+
+.title__desc{
+		margin-top: 24px;
+		font-size: 20px;
+		margin-bottom: 50px;
+}
+
+.title__button{
+		font-size: 16px;
+		border: 3px solid #fff;
+		color: #fff;
+		padding: 14px 35px;
+		text-transform: uppercase;
+		text-decoration: none;
+}
+
+.title__button:hover {
+		text-decoration: none;
+		color: #fff;
+}
+
+.weOffer {
+		text-align: center;
+		margin-top: 95px;
+}
+
+.weOffer__title {
+		font-size: 20px;
+		text-transform: uppercase;
+		font-weight: bold;
+}
+
+.weOffer__line hr {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		border: none;
+		background-color: #555555;
+		color: #555555;
+		height: 2px;
+		width: 50px;
+}
+
+.weOffer__desc {
+		font-family: 'Roboto Slab', serif;
+		font-size: 16px;
+}
+
+.services-feautres {
+		margin-top: 75px;
+}
+
+
+.feautre{
+}
+
+.feautre__title {
+		margin-top: 30px;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: bold;
+}
+
+.text{
+		margin-top: 25px;
+		font-family: 'Roboto Slab', serif;
+		font-size: 14px;
+		line-height: 1.714;
+
+}
+
+.feautre__icon-hooks img{
+		padding: 23px 18px;
+		border: 2px solid #dddddd;
+		border-radius: 50px;
+}
+
+.aboutUs {
+		margin-top: 100px;
+		padding-bottom: 100px;
+		background: #f8f8f8;
+}
+
+.descAboutUs{
+		margin-top: 75px;
+}
+
+.dudes{
+		margin-top: 67px;
+		margin-bottom: 100px;
+}
+
+.dudes__name{
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: bold;
+		margin-top: 16px;
+}
+
+.dudes__desc{
+		font-family: 'Roboto Slab', serif;
+		font-size: 13px;
+		margin-top: 5px;
+}
+
+.works-menu{
+		text-align: center;
+		display: block;
+		margin-bottom: 70px;
+}
+
+.works-menu__item a{
+		font-family: 'Roboto Slab', serif;
+		font-size: 16px;
+		color: #555555;
+		text-decoration: none;
+		display: block;
+		margin-left: 10px;
+		margin-right: 10px;
+}
+
+.work-images{
+		margin-top: 10px;
+}
+
+.ourWork{
+		margin-top: 100px;
+		background: linear-gradient(to top,rgba(192, 48, 28,0.6), rgba(192, 48, 28,0.6)), url("../Home-assets/project.jpg");
+		height: 369px;
+}
+
+.title2 {
+		font-size: 30px;
+		color: rgb(255, 255, 255);
+		font-family: "Roboto Slab";
+		margin-top: 95px;
+		margin-bottom: 50px;
+}
+
+.posts {
+		margin-top: 70px;
+		margin-bottom: 77px;
+}
+
+.post {
+		margin-left: 50px;
+}
+
+.day {
+		width: 70px;
+		height: 70px;
+		border: 2px solid #555555;
+		display: block;
+}
+
+.day__num{
+		margin-top: 4px;
+		font-size: 24px;
+		font-weight: bold;
+		text-transform: uppercase;
+}
+
+.day__month{
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+}
+
+.posts-title__title {
+		margin-top: 10px;
+		font-size: 16px;
+		color: rgb(192, 48, 28);
+		text-transform: uppercase;
+		font-weight: bold;
+}
+
+.posts-title__desc{
+		margin-top: 8px;
+		font-size: 13px;
+		font-family: "Roboto Slab";
+		color: rgb(119, 119, 119);
+}
+
+.posts-title__desc span{
+		color: rgb(192, 48, 28);
+}
+
+.nameOfPost{
+		margin-left: 27px;
+}
+
+.posts__text{
+		margin-left: 50px;
+		margin-bottom: 35px;
+}
+
+.posts__read a{
+		text-transform: uppercase;
+		font-size: 13px;
+		font-family: "Roboto Slab";
+		font-weight: bold;
+		color: rgb(192, 48, 28);
+		text-decoration: none;
+		margin-left: 50px;
+		margin-top: 35px;
+}
+
+.posts-title__title-gray {
+		color: #555555;
+}
+
+.posts__read-gray a{
+		color: #555555;
+}
+
+.blogPosts{
+		margin-bottom: 100px;
+}
+
+.companies{
+		background-color: #f8f8f8;
+		padding-bottom: 100px;
+}
+
+.coms{
+		margin-top: 110px;
+		text-align: center;
+}
+
+.coms img{
+		margin-left: 28px;
+		margin-right: 28px;
+}
+
+.companies-review{
+		font-size: 18px;
+		font-family: "Roboto Slab";
+		margin-left: 170px;
+		margin-right: 170px;
+		text-align: center;
+		margin-top: 72px;
+}
+
+.companies-reviewer{
+		font-size: 20px;
+		font-family: "Roboto Slab";
+		text-align: center;
+		margin-top: 45px;
+}
+
+.buts{
+		margin-left: 46%;
+		margin-right: 46%;
+		margin-top: 40px;
+		display: inline-block;
+}
+
+.buts__item {
+		height: 13px;
+		width: 13px;
+		border-radius: 50px;
+		background-color: #dddddd;
+		margin-left: 6px;
+		display: inline-block;
+}
+
+.buts__item-select{
+		background-color: #c0301c;
+}
+
+.getInTouch{
+		padding-bottom: 100px;
+}
+
+.connection{
+		margin-top: 80px;
+}
+
+.kindConnection{
+		margin-bottom: 40px;
+}
+
+.kindConnection__icon{
+}
+
+.kindConnection__title{
+		font-size: 14px;
+		text-transform: uppercase;
+		margin-left: 10px;
+		margin-top: 2px;
+		font-weight: bold;
+}
+
+.kindConnection__desc{
+		font-size: 12px;
+		text-align: left;
+		margin-left: 20px;
+		margin-top: 14px;
+		line-height: 1.667;
+}
+
+input{
+		width: 350px;
+		height: 40px;
+}
+
+
+input, textarea, .subm{
+		margin-bottom: 20px;
+		font-size: 12px;
+		font-family: "Roboto Slab";
+		text-transform: uppercase;
+		color: #555555;
+		border: 1px solid #555555;
+	outline: none;
+		padding-left: 20px;
+}
+
+input:hover, textarea:hover, .subm:hover{
+		border: 1px solid #c0301c;
+}
+
+textarea{
+		padding-top: 8px;
+}
+
+textarea{
+	resize: none;
+	width: 730px;
+	height: 105px;
+}
+
+.right-inp{
+		margin-left: 25px;
+}
+
+textarea::value{
+		padding-left: 12px;
+		padding-top: 8px;
+}
+
+.subm{
+		width: 170px;
+		height: 45px;
+		background-color: #fff;
+		text-align: center;
+		padding-left: 0px;
+		outline: none;
+}
+
+.responce{
+		font-size: 12px;
+		font-family: "Roboto Slab";
+		margin-left: 36px;
+		margin-top: 14px;
+}
+
+.responce span{
+		color: rgb(192, 48, 28);
+}
+
+footer{
+		background: rgb(192, 48, 28);
+		padding-bottom: 100px;
+}
+
+.footer-icons i{
+		color: #fff;
+		border: 2px solid #fff;
+		border-radius: 50px;
+		padding: 8px;
+		margin-top: 100px;
+}
+
+.footer__line{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		border: none;
+		background-color: #fff;
+		color: #fff;
+		height: 2px;
+		width: 50px;
+}
+
+.designed{
+		font-size: 12px;
+		font-family: "Roboto Slab";
+		color: rgb(255, 255, 255);
+		text-transform: uppercase;
+}
+
+
+.works-menu {
+	text-align: center;
+}
+
+
+.works-menu__item a {
+	display: inline;
+}
+
+.works-menu__item {
+	display: inline;
+}
+
+/*media-request*/
+
+@media only screen and (max-width : 1200px) {
+	.work-images {
+		padding-left: 80px;
+	}
+
+	.dudes__dude {
+		margin-top: 40px;
+	}
+
+	.right-inp{
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width : 992px) {
+	.logo {
+		text-align: center;
+		margin-bottom: 25px;
+	}
+
+	.menu__item {
+		margin-left: 9px;
+		margin-right: 9px;
+	}
+
+	.text {
+		text-align: center;
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.work-images {
+		padding-left: 173px;
+	}
+
+	.posts-image {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.post-desc {
+		text-align: center;
+	}
+
+	.post {
+		margin-left: 115px;
+		margin-top: 30px;
+	}
+
+	.posts__read a {
+		margin-left: 0;
+	}
+
+	.posts-image  {
+    display: block; 
+    text-align: center; 
+	}
+
+	.coms img {
+		margin-bottom: 20px;
+	}
+
+	.buts{
+		margin-left: 44%;
+		margin-right: 44%; 
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.dis-none {
+		display: none;
+	}
+
+	textarea{
+		width: 430px;
+	}
+
+	.work-images {
+		margin-right: 187px;
+	}
+
+	.posts-image {
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto	;
+	}
+
+	.post {
+		margin: 0;	
+		margin-left: 25px;
+		margin-top: 15px;
+	}	
+	
+	.companies-review {
+		margin: 30px 50px;
+	}
+
+	.buts{
+		margin-left: 42%;
+		margin-right: 42%; 
+	}
+
+
+}
+
+@media only screen and (max-width : 575px) {
+	textarea{
+		width: 250px;
+	}
+
+	input {
+		width: 250px;
+	}
+
+	.posts-image  {
+    display: block; 
+    text-align: center; 
+	}
+
+	.posts-image img {
+		width: 280px;
+	}
+
+	.post {
+		margin-left: -10px;
+	}
+
+	.text {
+		width: 250px;
+	}
+
+	.menu__item {
+		display: none;	
+	}
+
+	.works-menu__item a {
+		display: block;
+	}
+
+	.work-images {
+		width: 300px;
+		margin-right: 0;
+		margin-left: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.work-images img {
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.day {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+ .companies-review {
+	margin: 30px 30px;
+}
+
+	.buts{
+		margin-left: 38%;
+		margin-right: 38%; 
+	}
+}
+
+
+
