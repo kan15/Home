@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Library</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/b-cirle.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/b-cirle.png">
+	<!-- Template Basic Images End -->
+
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="aditional.css">
+
+</head>
+
+
+<body class="scroll-black">
+
+	<div class="first-screen">
+
+		<div class="switch-wrapper">
+			<label class="switch-b" title="Language">
+				<div class="switch-desk">English</div>
+				<input class="color-theme-button" type="checkbox" checked>
+				<span class="slider-b round-b"></span>
+			</label>
+		</div>
+
+		<h1 class="hello">
+			<div class="h1"></div>
+			<span class="flick"></span>
+		</h1>
+		<h2 class="workshop ">
+			<div class="h2"></div>
+			<span class="flick"></span>
+		</h2>
+	</div>
+
+
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-11">
+				<div class="first-desc">
+					Here are collected various features and programs that I did. Everything is done on the native
+					Javascript without using jQuery or other libraries.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="tetris-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-5 definition anime-dis">
+
+					<div class="h2">
+						Tetris
+					</div>
+
+					<div class="desc">
+						Classic Tetris. Choose the difficulty level and the game will begin. Control on WASD or arrows.
+					</div>
+
+					<div class="complication">
+
+						<button class="btn-compl draw-border easy">Easy</button>
+						<br>
+						<button class="btn-compl draw-border normal">Medium</button>
+						<br>
+						<button class="btn-compl draw-border hard">Hard</button>
+
+					</div>
+
+					<input class="input-tetris" type="text" readonly>
+
+				</div>
+
+				<div class="col-md-6 offset-md-1 anime-second-dis">
+
+					<div class="main"></div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="calculator-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-5 anime-dis">
+
+					<div id="calc-parent">
+						<div class="row-calculator">
+							<div class="column" id="calc-display-val">0</div>
+						</div>
+						<div class="row-calculator">
+							<div class="calc-btn column" id="calc-clear">AC</div>
+							<div class="calc-btn column" id="calc-backspace">&#8676;</div>
+							<div class="calc-btn calc-btn-operator column" id="calc-divide">÷</div>
+						</div>
+						<div class="row-calculator">
+							<div class="calc-btn calc-btn-num column" id="calc-seven">7</div>
+							<div class="calc-btn calc-btn-num column" id="calc-eight">8</div>
+							<div class="calc-btn calc-btn-num column" id="calc-nine">9</div>
+							<div class="calc-btn calc-btn-operator column" id="calc-multiply">x</div>
+						</div>
+						<div class="row-calculator">
+							<div class="calc-btn calc-btn-num column" id="calc-four">4</div>
+							<div class="calc-btn calc-btn-num column" id="calc-five">5</div>
+							<div class="calc-btn calc-btn-num column" id="calc-six">6</div>
+							<div class="calc-btn calc-btn-operator column" id="calc-minus">-</div>
+						</div>
+						<div class="row-calculator">
+							<div class="calc-btn calc-btn-num column" id="calc-one">1</div>
+							<div class="calc-btn calc-btn-num column" id="calc-two">2</div>
+							<div class="calc-btn calc-btn-num column" id="calc-three">3</div>
+							<div class="calc-btn calc-btn-operator column" id="calc-plus">+</div>
+						</div>
+						<div class="row-calculator">
+							<div class="calc-btn calc-btn-num column" id="calc-zero">0</div>
+							<div class="calc-btn column" id="calc-decimal">.</div>
+							<div class="calc-btn calc-btn-operator column" id="calc-equals">=</div>
+						</div>
+					</div>
+
+				</div>
+
+
+				<div class="col-md-5  anime-second-dis">
+					<div class="h2">
+						Calculator
+					</div>
+
+					<div class="desc">
+						Calculator like on iOS.
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+
+	<section class="snake-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 anime-dis definition">
+					<div class="h2">
+						Snake
+					</div>
+
+					<div class="desc">
+						Choose the difficulty level and the game will begin.
+					</div>
+
+					<div class="complication">
+						<button class=" btn-compl-snake draw-border easy">Easy</button>
+						<br>
+						<button class=" btn-compl-snake draw-border normal">Medium</button>
+						<br>
+						<button class=" btn-compl-snake draw-border hard">Hard</button>
+					</div>
+
+					<input class="input-snake" type="text" readonly>
+
+				</div>
+
+				<div class="col-md-6 offset-md-1 anime-second-dis snake-main">
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="cloth-section">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 canvas-place anime-dis ">
+					<canvas class="canvas"></canvas>
+				</div>
+
+				<div class="col-md-5 anime-second-dis cloth-def">
+					<h2 class="h2">Simulation of cloth</h2>
+
+					<div class="desc">
+						Left mouse button to pull cloth, right mouse button to tear.
+					</div>
+
+					<div class="complication ">
+						<button class="btn-compl-cloth draw-border-cloth">Repeat</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="google-interview-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 anime-dis">
+					<h2 class="h2">Task from Google interview</h2>
+
+					<div class="desc">
+						Solved the task from <a href="https://www.youtube.com/watch?v=10WnvBk9sZc&t=2792s" target="_blank"> Google
+							interview </a>. The task is this: you need to find a common subsequence. it
+						a sequence that can be obtained from another sequence by removing some
+						elements without changing the order of the remaining elements. The task is more complicated than it seems at
+						first glance. I'm in
+						convinced of this. I wrote a naive code in 20 minutes, which solved correctly all the examples that gave
+						interviewer. And I thought “Wow”, I solved the problem in 20 minutes, which the Senior programmer solved for
+						an hour. But
+						when I began to do more complex tests, it turned out that this works a little wrong. I ended up
+						spent a bunch of hours and still did it right.
+
+					</div>
+				</div>
+
+				<div class="col-md-5 offset-md-1 anime-second-dis">
+
+					<div class="google-task-en">
+
+						<div class="google-title">First string</div>
+						<input type="text" class="google-input google-input-1" value="AGGTABBPOB">
+						<div class="google-title">Second string</div>
+						<input type="text" class="google-input google-input-2" value="GXTXAYBQAB">
+
+						<button class="btn-compl-google draw-border-google">Get answer</button>
+
+						<input class="google-input output-google" type="text" readonly="">
+
+					</div>
+
+				</div>
+			</div>
+	</section>
+
+	<section class="lightning-section">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="h2 anime-dis">Lightning</h2>
+
+					<div class="lightning anime-second-dis"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="decoder-section ">
+		<div class="container">
+			<div class="row ">
+				<div class="col ">
+					<h2 class="h2">Message encoder</h2>
+					<div class="decoder-desc">
+						You need to enter any text in the first input and the script will give you a certain sequence of numbers. I
+						do not think that this cipher can be solved, because for each letter there are several variants of the
+						sequence and different lengths.
+					</div>
+				</div>
+			</div>
+
+			<div class="row ">
+				<div class="col-md-3 encoder-input-wrapper anime-left">
+					<h3>Input</h3>
+					<textarea cols="30" rows="10" class="encoder-input"></textarea>
+					<div class="btn-wrapper">
+						<button class="decoder-button encoder-get ">Get cipher</button>
+					</div>
+				</div>
+
+				<div class="col-md-6 encoder-input-wrapper anime-dis" style="opacity: 1">
+					<h3>Cipher</h3>
+					<textarea cols="50" rows="20" class="encoder-output times-new-roman"></textarea>
+				</div>
+
+				<div class="col-md-3 encoder-input-wrapper anime-right">
+					<h3 class="decoder-title">Decoder</h3>
+					<textarea cols="30" rows="10" class="decoder-input"></textarea>
+					<div class="btn-wrapper">
+						<button class="decoder-button decoder-get">Decode</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<div class="container">
+		<div class="row ">
+			<div class="col ">
+				<div class="white-end">
+					<div class="end-desc">Thanks for watching</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/library-scripts.min.js"></script>
+</body>
+
+</html>
