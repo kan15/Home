@@ -15,7 +15,7 @@
 	<meta name="theme-color" content="#000">
 	<meta name="google" content="notranslate" />
 
-	<link rel="stylesheet" href="css/home-main.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body class="scroll-black">
@@ -42,7 +42,7 @@
 
 				<div class="col-sm-2 offset-sm-9 col-2 offset-8 switch-wrapper color-theme-wrapper">
 					<label class="switch-b">
-						<div class="switch-desk">Color theme</div>
+						<span class="switch-desk">Color theme</span>
 						<input class="color-theme-button" type="checkbox" checked>
 						<span class="slider-b slider-b-black round-b"></span>
 					</label>
@@ -54,7 +54,7 @@
 
 				<div class="col-sm-1 offset-sm-11 col-2 offset-9 switch-wrapper switch-language">
 					<label class="switch-b">
-						<div class="switch-desk switch-desk-lang">English</div>
+						<span class="switch-desk switch-desk-lang">English</span>
 						<input class="color-theme-button language-button" type="checkbox" checked>
 						<span class="slider-b slider-b-black round-b"></span>
 					</label>
@@ -298,14 +298,16 @@
 			</div>
 
 			<div class="connect-item">
-				<p class="contact" href="#">
+				<a class="contact" >
 					<i class="fa fa-envelope" aria-hidden="true"></i>
 					Ilyacheredov@Gmail.com
-				</p>
+				</a>
 			</div>
 
+
+
 			<div class="connect-item">
-				<a class="contact" href="tel:+7 (900) 983 69 11">
+				<a class="contact" href="tel:+7(900)9836911">
 					<i class="fa fa-phone" aria-hidden="true"></i>
 					+7 (900) 983-69-11
 				</a>
@@ -318,14 +320,13 @@
 		<div class="end-desc">Thanks for attention</div>
 	</div>
 
-	<script src="js/home-scripts.min.js"></script>
-	
-	
+	<script src="js/scripts.min.js"></script>
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150460274-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 
 		gtag('config', 'UA-150460274-1');
